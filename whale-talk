@@ -1,0 +1,37 @@
+//no constants, only aeiou
+//u's and e's are doubled
+
+
+var input = 'Si se puede';
+
+const vowels = ['a', 'e', 'i', 'o', 'u'];
+
+var resultArray = [];
+
+for (let i = 0; i < input.length; i++) {
+    
+    if(input[i] === 'e'){
+        resultArray.push(input[i]);
+
+   };
+
+   if(input[i] === 'u'){
+    resultArray.push(input[i]);
+
+    };
+
+    for (let j = 0; j < input.length; j++) {
+        if(input[i] === vowels[j]){
+           resultArray.push(input[i]);
+                   
+        };    
+   };
+
+   
+};
+
+console.log(resultArray);
+
+var resultString = resultArray.join("");
+var allCaps = resultString.toUpperCase;
+console.log(resultString.toUpperCase());
