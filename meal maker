@@ -1,0 +1,18 @@
+const menu = {
+    courses: {
+        appetizers:[],
+        mains: [],
+        desserts: []
+    },
+
+    dish: {
+        .addDishToCourse(courseName, dishName, dishPrice), 
+        name: dishName, 
+        price: dishPrice
+
+
+    };
+    
+    
+
+};
